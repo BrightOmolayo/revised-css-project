@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: rgb(174, 245, 221);
+    height: 92px;
+    padding: 2px;
+    margin-top: 1%;
+}
+.image1,
+.image3{
+    background-color: aquamarine;
+    width: 250px;
+    border: 1px thin transparent;
+    border-radius: 20px;
+}
+.image2,
+.image4{
+    background-color: sandybrown;
+    width: 250px;
+    border: 1px thin transparent;
+    border-radius: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 1px thin transparent;
+    border-radius: 20px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    position:relative;
+    bottom: 60px;
+}
+li{
+    margin: 10px;
+    list-style: none;
+}
+footer{
+    background-color: sandybrown;
+}
