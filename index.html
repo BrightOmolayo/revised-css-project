@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food reecipes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <h1>
-            recipes
+    <header class="topNav" id="myTopNav">
+        <h1 class="active">
+            recipe<span>s</span>
         </h1>
         <ul>
             <a href="../revised-css-project/recipes/eforiro.html"> 
@@ -34,13 +35,16 @@
                 </li> 
             </a>
         </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </header>
-    <div>
-        <h1>
-            Special recipes, <br> perfect for you
-        </h1>
+    <div class="heroText">
+        <h2>
+            Special recipes <br> perfect for you
+        </h2>
         <p>
-            Find clear directions on how to prepare Eforiro Soup, Egusi Soup, Fried Rice and 
+            Find clear directions on how <br> to prepare Eforiro Soup, Egusi Soup,  <br> Fried Rice and 
             Jollof Rice.
         </p>
     </div>
@@ -65,5 +69,6 @@
     <footer>
         @BrightOmolayo 2023 project
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
