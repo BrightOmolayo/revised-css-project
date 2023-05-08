@@ -12,21 +12,26 @@ header{
 .image1,
 .image3{
     background-color: rgb(175, 211, 199);
-    width: 20%;
+    width: 17%;
     border-radius: 20px;
+    height: 195px;
 }
+
 .image2,
 .image4{
     background-color: rgb(224, 186, 153);
-    width: 20%;
-    border-radius: 20px;
+    width: 17%;
+    border-radius: 10px;
+    height: 195px;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border: 1px thin transparent;
-    border-radius: 20px;
-    margin-left: 30px;
+    border-radius: 10px;
+    margin-left: 10%;
+    position: relative;
+    top: 15px;
 }
 .images{
     display: flex;
