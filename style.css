@@ -2,7 +2,7 @@ body{
     background-color: rgb(248, 241, 232);
 }
 header{
-    background-color: rgb(210, 241, 243);
+    background-color: rgb(213, 235, 236);
     height: 82px;
     padding: 2px;
     margin-top: -1%;
@@ -14,7 +14,7 @@ header{
     background-color: rgb(175, 211, 199);
     width: 17%;
     border-radius: 20px;
-    height: 195px;
+    height: 198px;
 }
 
 .image2,
@@ -22,10 +22,10 @@ header{
     background-color: rgb(224, 186, 153);
     width: 17%;
     border-radius: 10px;
-    height: 195px;
+    height: 198px;
 }
 img{
-    height: 170px;
+    height: 172px;
     width: 170px;
     border: 1px thin transparent;
     border-radius: 10px;
@@ -67,9 +67,9 @@ a{
 }
 .heroText{
     margin-left: 3%;
-    height: 210px;
+    height: 213px;
     font-size: 101%;
-    font-weight: 400;
+    font-weight: bold;
 }
 /* Change the color of links on hover */
 .topNav a:hover {
