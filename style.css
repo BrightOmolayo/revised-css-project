@@ -134,28 +134,23 @@ h1{
 @media screen and (max-width: 600px){
   .images{
     display: flex;
-    justify-content: space-evenly;
-    height: 600px;
-
+    height: 460px;
+    background-color: #e7f8f2; 
   }
   .image1,
   .image3{
-  margin: 3%;
   position: relative;
-  top: 300px;
+  top: 250px;
+  width: 80%;
+  left: 50px;
  }
 
   .image2,
   .image4{
-  margin: 3%;
   position: relative;
-  right: 55px;
+  right: 50px;
+  width: 80%;
+  top: 18px;
  }
-  img{
-  height: 123%;
-  width: 223%;
-  border: 1px thin transparent;
-  border-radius: 8px;
-  margin: 3%;
- }
+  
 }
