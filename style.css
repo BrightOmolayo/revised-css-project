@@ -134,6 +134,29 @@ h1{
 @media screen and (max-width: 600px){
   .images{
     display: inline-block;
-  width: 110%;
   }
+  .image1,
+  .image3{
+  background-color: rgb(204, 230, 221);
+  width: 30%;
+  border-radius: 8px;
+  height: 198px;
+  margin: 3%;
+ }
+
+  .image2,
+  .image4{
+  background-color: rgb(231, 207, 185);
+  width: 30%;
+  border-radius: 8px;
+  height: 198px;
+  margin: 3%;
+ }
+  img{
+  height: 123%;
+  width: 123%;
+  border: 1px thin transparent;
+  border-radius: 8px;
+  margin: 3%;
+ }
 }
