@@ -140,10 +140,6 @@ h1{
   }
   .image1,
   .image3{
-  background-color: rgb(204, 230, 221);
-  width: 70px;
-  border-radius: 8px;
-  height: 198px;
   margin: 3%;
   position: relative;
   top: 300px;
@@ -151,10 +147,6 @@ h1{
 
   .image2,
   .image4{
-  background-color: rgb(231, 207, 185);
-  width: 70px;
-  border-radius: 8px;
-  height: 198px;
   margin: 3%;
   position: relative;
   right: 55px;
