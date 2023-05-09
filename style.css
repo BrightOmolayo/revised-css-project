@@ -131,3 +131,9 @@ h1{
 .icon{
   color: black;
 }
+@media screen and (max-width: 600px){
+  .images{
+    display: inline-block;
+  width: 110%;
+  }
+}
