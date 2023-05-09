@@ -11,25 +11,25 @@ header{
 }
 .image1,
 .image3{
-    background-color: rgb(175, 211, 199);
+    background-color: rgb(204, 230, 221);
     width: 17%;
-    border-radius: 20px;
+    border-radius: 8px;
     height: 198px;
 }
 
 .image2,
 .image4{
-    background-color: rgb(224, 186, 153);
+    background-color: rgb(231, 207, 185);
     width: 17%;
-    border-radius: 10px;
+    border-radius: 8px;
     height: 198px;
 }
 img{
     height: 83%;
     width: 83%;
     border: 1px thin transparent;
-    border-radius: 10px;
-    margin-left: 10%;
+    border-radius: 8px;
+    margin-left: 9%;
     position: relative;
     top: 15px;
 }
@@ -38,6 +38,7 @@ img{
     justify-content: space-around;
     width: 90%;
     margin-left: 2%;
+    height: 200px;
 }
 ul{
     display: flex;
@@ -67,7 +68,7 @@ a{
 }
 .heroText{
     margin-left: 3%;
-    height: 213px;
+    height: 225px;
     font-size: 101%;
     font-weight: bold;
 }
